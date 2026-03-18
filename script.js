@@ -1,43 +1,44 @@
 let count = 1;
 while (count < 10) {
-   console.log(count);
-   count++;
+    console.log(count);
+    count++;
 }
 
 
-// let count = 1;
+let count = 1;
 
-// while (count < 10) {
-//    count++;
-//    if (count === 8) {
-//        continue; // Пропуск итерации, когда count становится 8
-//    }
-//    console.log(count);
-// }
+while (count < 10) {
+    count++;
+    if (count === 8) {
+        continue; // Пропуск итерации, когда count становится 8
+    }
+    console.log(count);
+}
 
-// console.log("Цикл завершен");
+console.log("Цикл завершен");
 
-// let i = 1;
-// do {
-//     console.log(i);
-//     i++;
-//     while (i < 5);
-// }
+let i = 1;
+do {
+    console.log(i);
+    i++;
+    while (i < 5);
+}
 
-// let number;
-// while (true) {
-//     number = prompt("Введите число:");
-//     if (number == 10) {
-//         console.log("Вы ввели 10, цикл будет остановлен.");
-//         break; // Выход из цикла, если число равно 10
-//     }
+let number;
+while (true) {
+    number = prompt("Введите число:");
+    if (number == 10) {
+        console.log("Вы ввели 10, цикл будет остановлен.");
+        break; // Выход из цикла, если число равно 10
+    }
+}
 
 for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
 
 let i = 0;
-for(;;) {
+for (; ;) {
     i++;
     if (i > 100) {
         break;
